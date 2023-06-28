@@ -1,12 +1,10 @@
 package components;
 
 public class Professor {
-    String nome;
+    String nome, formacao;
     Integer codigo, cargaHoraria, disciplina;
-    public Professor (String nome, Integer codigo, Integer cargaHoraria, Integer disciplina) {
+    public Professor (String nome, String formacao) {
         this.nome = nome;
-        this.codigo = codigo;
-        this.cargaHoraria = cargaHoraria;
-        this.disciplina = disciplina;
+
     }
 }
